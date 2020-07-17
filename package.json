@@ -1,0 +1,57 @@
+{
+  "name": "webpack-demo",
+  "version": "1.0.0",
+  "description": "react 打包demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --config  ./webpack.dev.config.js",
+    "build": "webpack --config  ./webpack.prod.config.js",
+    "start": "webpack-dev-server --inline --config ./webpack.dev.config.js"
+  },
+  "keywords": [
+    "webpack",
+    "打包"
+  ],
+  "author": "leo",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^11.0.0-beta.2",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-1": "^6.24.1",
+    "cache-loader": "^4.1.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^2.1.0",
+    "eslint": "^6.8.0",
+    "file-loader": "^6.0.0",
+    "html-loader": "^1.1.0",
+    "html-minifier": "^4.0.0",
+    "html-webpack-plugin": "^4.0.0-beta.9",
+    "jsx-loader": "^0.12.2",
+    "less": "^3.11.1",
+    "less-loader": "^5.0.0",
+    "mini-css-extract-plugin": "^0.9.0",
+    "node-sass": "^4.13.1",
+    "optimize-css-assets-webpack-plugin": "^5.0.3",
+    "sass-loader": "^8.0.2",
+    "style-loader": "^1.1.3",
+    "suni": "0.0.0",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.1"
+  },
+  "dependencies": {
+    "eslint-plugin-suni": "git+ssh://https://github.com/Thatkookooguy/eslint-plugin-stackoverflow.git",
+    "extract-loader": "^5.1.0",
+    "html-webpack-link-type-plugin": "^1.0.3",
+    "postcss-loader": "^3.0.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "url-loader": "^4.1.0"
+  }
+}
